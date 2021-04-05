@@ -66,8 +66,22 @@
   color: #fff;
 }
 
-/* Text sizes */
+/* Text colors */
+.text-primary {
+  color: var(--primary-color);
+}
 
+.text-secondary {
+  color: var(--secondary-color);
+}
+.text-light {
+  color: var(--light-color);
+}
+.text-dark {
+  color: var(--dark-color);
+}
+
+/* Text sizes */
 .lead {
   font-size: 20px;
 }
@@ -87,9 +101,31 @@
 .xl {
   font-size: 4rem;
 }
+/* Text colors */
 
 .text-center {
   text-align: center;
+}
+
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.alert-error {
+  background-color: var(--success-color);
+  color: #fff;
 }
 
 .flex {
